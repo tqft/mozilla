@@ -7,5 +7,5 @@ time ./mach build
 time ./mach package
 cd ..
 rm -rf ../ff/firefox/*
-tar xvf ./mozilla-central/obj-x86_64-pc-linux-gnu/ff/dist/firefox-100.0a1.en-US.linux-x86_64.tar.bz2 -C ../ff/firefox/
-\cp -f ./mozilla-central/obj-x86_64-pc-linux-gnu/ff/dist/firefox-100.0a1.en-US.linux-x86_64.tar.bz2  mozExeBackup/.
+tar xvf ./mozilla-central/obj-x86_64-pc-linux-gnu/ff/dist/firefox-102.0a1.en-US.linux-x86_64.tar.bz2 -C ../ff/firefox/
+\cp -f ./mozilla-central/obj-x86_64-pc-linux-gnu/ff/dist/firefox-102.0a1.en-US.linux-x86_64.tar.bz2  mozExeBackup/.
