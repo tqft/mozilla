@@ -1,0 +1,3 @@
+cp /home/ian/sourcetrees/programs/mozilla/mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/ff/dist/firefoxnightlylocal*.tar.bz2	/home/ian/sourcetrees/programs/mozilla/mozilla/mozExeBackup/.
+cp /home/ian/sourcetrees/programs/mozilla/mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/ff/dist/firefoxnightly*.tar.bz2	/home/ian/sourcetrees/programs/mozilla/mozilla/mozExeBackup/.
+cp /home/ian/sourcetrees/programs/mozilla/mozilla/mozilla-central/obj-x86_64-pc-linux-gnu/tb/dist/thunderbird*.tar.bz2		/home/ian/sourcetrees/programs/mozilla/mozilla/mozExeBackup/.
