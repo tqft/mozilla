@@ -13,5 +13,5 @@ rm -rf ../tb/thunderbird/*
 #versionstring=$(<mozilla-central/browser/config/version.txt)
 #change for thunderbird
 versionstring=$(<mozilla-central/comm/mail/config/version.txt)
-tar xvf ./mozilla-central/obj-x86_64-pc-linux-gnu/tb/dist/thunderbird-$versionstring.en-US.linux-x86_64.tar.bz2 -C ../tb/thunderbird/
-\cp -f ./mozilla-central/obj-x86_64-pc-linux-gnu/tb/dist/thunderbird-$versionstring.en-US.linux-x86_64.tar.bz2  mozExeBackup/.
+tar xvf ./mozilla-central/obj-x86_64-pc-linux-gnu/tb/dist/thunderbird-$versionstring.en-US.linux-x86_64.tar.xz -C ../tb/thunderbird/
+\cp -f ./mozilla-central/obj-x86_64-pc-linux-gnu/tb/dist/thunderbird-$versionstring.en-US.linux-x86_64.tar.xz  mozExeBackup/.

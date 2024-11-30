@@ -8,5 +8,5 @@ time ./mach package
 cd ..
 rm -rf ../ff/firefoxnightlylocal/*
 versionstring=$(<mozilla-central/browser/config/version.txt)
-tar xvf ./mozilla-central/obj-x86_64-pc-linux-gnu/ff/dist/firefoxnightlylocal-$versionstring.en-US.linux-x86_64.tar.bz2 -C ../ff/firefoxnightlylocal/
-\cp -f ./mozilla-central/obj-x86_64-pc-linux-gnu/ff/dist/firefoxnightlylocal-$versionstring.en-US.linux-x86_64.tar.bz2  mozExeBackup/.
+tar xvf ./mozilla-central/obj-x86_64-pc-linux-gnu/ff/dist/firefoxnightlylocal-$versionstring.en-US.linux-x86_64.tar.xz -C ../ff/firefoxnightlylocal/
+\cp -f ./mozilla-central/obj-x86_64-pc-linux-gnu/ff/dist/firefoxnightlylocal-$versionstring.en-US.linux-x86_64.tar.xz  mozExeBackup/.
