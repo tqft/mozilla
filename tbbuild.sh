@@ -1,7 +1,8 @@
 cd ~/sourcetrees/programs/mozilla/mozilla/mozilla-central
 cp ../mozconfigtb mozconfig
 env MOZCONFIG=/@TOPSRCDIR@/obj-@CONFIG_GUESS@/tb
-time hg pull -u #; 
+#time hg pull -u #; 
+time git pull 
 #(cd comm; hg pull -u) change in TB build commands
 cd comm
 time hg pull -u 

@@ -2,7 +2,8 @@
 cd ~/sourcetrees/programs/mozilla/mozilla/mozilla-central
 cp ../mozconfigff mozconfig
 env MOZCONFIG=/@TOPSRCDIR@/obj-@CONFIG_GUESS@/ff
-time hg pull -u
+#time hg pull -u
+time git pull 
 time ./mach build
 time ./mach package
 cd ..
